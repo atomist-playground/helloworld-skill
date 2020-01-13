@@ -14,7 +14,7 @@ skill:
     - use: '@atomist/package-sdm-skill/package'
     - use: '@atomist/package-sdm-skill/bundle'  
                
-commands:
+commands: 
   # Register a hello world command
   - name: HelloWorld
     pattern: ^hello world.*$ 
